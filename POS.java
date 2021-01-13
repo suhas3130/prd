@@ -21,7 +21,7 @@ public class POS {
 		
 		while(true) {
 			setup();
-			System.out.println("Do You Want to place an order?");
+			System.out.println("Do You Want to create an order?");
 			Scanner sc = new Scanner(System.in);
 			String s = sc.nextLine();
 			if (s.equals("Y") || s.equals("y")) {
